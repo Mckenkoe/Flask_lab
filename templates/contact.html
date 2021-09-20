@@ -3,34 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="{{url_for('static',filename='css/app.css')}}">
-    <title>about</title>
+    <title>Contact</title>
   </head>
   <body>
     {% extends "template.html" %}
     {% block content %}
-    <!--Needs work-->
-    <div class="mx-4 mt-2">
-      <h1>About</h1>
-      <h3>Education</h3>
-      <ul>
-        <li>Georgia Cyber Academy <em>2016-2018</em></li>
-        <li>Georgia Military College <em>2017-2018</em></li>
-        <li>Columbus State University <em>2018-present</em></li>
-      </ul>
-
-      <hr>
-      <h3>Experience</h3>
-      <p>Computer Repair Technician, Feb 2021 - Present</p>
-      <p>ACM Secretary, Aug 2019 - Feb 2020</p>
-
-      <hr>
-      <h3>Skills</h3>
-      <ul>
-        <li>Software: Visual Studio, Adobe Creative Cloud, Github</li>
-        <li>Programming Languages: Java, C#, Python, HTML/CSS, Javascript</li>
-      </ul>
+    <div class="py-5 text-center">
+      <h1>Contact Mckenna</h1>
+      <a href="mailto:koetitz_mckenna@columbustate.edu">koetitz_mckenna@columbustate.edu</a>
     </div>
     {% endblock %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
